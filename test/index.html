@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="font-size: 24 px; color: blue">Hello World!</h1>
+    <h3>A subtitle</h3>
+
+    <button id = 'navigateButton'>Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click',function(){
+            window.location.href = 'https://www.google.com'
+        })
+    </script>
+
+    <p id = 'main'>My name is Eshaal Tariq.</p>
+    <p>Today is a <b>good</b> day!</p>
+    <p>i will get an A is <i>DS4200</i>.</p>
+
+    <p class = 'link'><a href="https://www.northeastern.edu">check my university website</a></p>
+
+    <p class = 'link'><a href="test.html">This is a test page</a></p>
+
+    <ul>
+        <li>Talk to my TAs</li>
+        <li>regrade quiz</li>
+        <li>read some papers</li>
+    </ul>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/500px-Pizza-3007395.jpg" alt="my picture" width = 500>
+
+</body>
+</html>
